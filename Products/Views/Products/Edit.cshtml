@@ -1,0 +1,30 @@
+@model Infrastructure.Models.Product
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="id"/>
+    <div class="form-group">
+        <label asp-for="name"></label>
+        <input asp-for="name" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="price"></label>
+        <input asp-for="price" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="description"></label>
+        <input asp-for="description" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="categoryId"></label>
+        <input asp-for="categoryId" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="manufacturerId"></label>
+        <input asp-for="manufacturerId" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="supplierId"></label>
+        <input asp-for="supplierId" class="form-control"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

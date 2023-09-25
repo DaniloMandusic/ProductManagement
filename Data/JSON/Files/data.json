@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "3 times edited product",
+      "price": 10.99,
+      "description": "desc1",
+      "categoryId": 1,
+      "manufacturerId": 1,
+      "supplierId": 1
+    },
+    {
+      "id": 2,
+      "name": "product2",
+      "price": 20.99,
+      "description": "desc2",
+      "categoryId": 2,
+      "manufacturerId": 2,
+      "supplierId": 2
+    },
+    {
+      "id": 3,
+      "name": "product3",
+      "price": 30.99,
+      "description": "desc3",
+      "categoryId": 1,
+      "manufacturerId": 1,
+      "supplierId": 1
+    },
+    {
+      "id": 4,
+      "name": "product4",
+      "price": 40.99,
+      "description": "desc4",
+      "categoryId": 2,
+      "manufacturerId": 2,
+      "supplierId": 2
+    },
+    {
+      "id": 5,
+      "name": "new product",
+      "price": 99.0,
+      "description": "desc5",
+      "categoryId": 2,
+      "manufacturerId": 1,
+      "supplierId": 2
+    },
+    {
+      "id": 6,
+      "name": "newest product",
+      "price": 321321.0,
+      "description": "fdasfa",
+      "categoryId": 6,
+      "manufacturerId": 6,
+      "supplierId": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "c1"
+    },
+    {
+      "id": 2,
+      "name": "c2"
+    }
+  ]
+}

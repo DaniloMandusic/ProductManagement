@@ -1,0 +1,14 @@
+C:\Users\danilo\RiderProjects\Products\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\danilo\RiderProjects\Products\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\danilo\RiderProjects\Products\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\danilo\RiderProjects\Products\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\danilo\RiderProjects\Products\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache

@@ -1,0 +1,28 @@
+@model List<Infrastructure.Models.Product>
+
+<h1>Product List</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.id</td>
+            <td>@product.name</td>
+            <td>@product.price.ToString("C")</td>
+            <td>@product.description</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@product.id">Edit</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

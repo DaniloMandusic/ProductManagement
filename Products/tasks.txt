@@ -1,0 +1,109 @@
+make basic view - Done
+
+define structure of app and database
+    mvc app
+        views:
+            index:
+                items from list
+                next to every item delete button
+                at bottom form for adding items
+                functions: show list, add, delete, edit
+                
+                interfaces: for handling list in view
+                
+                design patterns: cursor
+            
+    data microservice:
+        go through json/database and return data
+        functions: get, add, delete, edit
+        
+        interfaces: for data handling
+        
+        design patterns: singleton
+
+create basic structure
+
+implement with json
+
+implement with database
+
+--------------------------------------
+
+PM App
+    -modeli za app ne vezano za bazu
+    -interfejsi i impl product service - salju info u bazu
+    
+    Interfaces
+        interfejs za slanje info na obradu pre slanja u bazu
+    Services   
+        impl slanje info u bazu (iz repozitorijuma)
+    view models
+        informacije za view modele  
+
+PM Domain
+    Entities
+        Klasni modeli za DB
+    Interfaces/Repositories
+        interfejsi za uzimanje podataka iz baze/fajla
+
+PM Infrastructure
+    Repositories
+        DB/JSON
+            update-uje bazu podataka (prima modele iz domena)
+
+PM Web
+    -core app
+    -viewovi i controlleri za prikaz aplikacije 
+
+    - direktno vezana za PM App, pa PM App -> Domain, Domain -> Infrastructure
+    
+-------------------------------------
+
+App
+    Controllers and views for frontend
+        Products:
+            Index: 
+                Tabela prikaz,                                          - DONE
+                pored svakog reda izmena -> salje na formu za izmenu    - DONE
+            Izmena:
+                forma za izmenu                                         - DONE
+            Unos:
+                forma za unos
+            
+    
+Infrastructure
+    Functions used in app controllers
+        Interfaces
+            getElements()
+            changeElement(element params)
+            addElement(element params)
+        Entities
+            Product
+            Category
+            ...
+    
+Data microservice
+    DB
+        get elements    - DONE
+        edit            - DONE
+        add             - DONE
+    json
+        get elements    - DONE
+        edit            - DONE
+        add             - DONE
+        
+        * correct model - DONE  
+        
+        * add choice db/js - DONE
+        * clear code       - DONE
+    
+
+
+
+
+
+
+
+
+
+
